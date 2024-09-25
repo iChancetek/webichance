@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('images/img_2022') no-repeat center center fixed;
+    background: url("images/img_2022.jpg") no-repeat center center fixed;
     background-size: cover;
-    color: #333;
+    color:#333;
 }
 
 
@@ -38,7 +38,15 @@ nav a:hover {
 }
 
 .logo {
-    height: 50px;
+    height: 100px; /* Increase the height */
+    width: auto; /* Ensures the aspect ratio is maintained */
+    cursor: pointer; /* Keeps the clickable functionality */
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 60px; /* Smaller logo on mobile screens */
+    }
 }
 
 main {
