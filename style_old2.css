@@ -11,7 +11,7 @@ body {
     background-size: cover;
     color: #333;
     line-height: 1.6;
-    padding-top: 70px;
+    padding-top: 70px; /* Ensures content doesn't hide under the fixed header */
 }
 
 /* Header */
