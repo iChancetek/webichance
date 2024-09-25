@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('images/img_2022') no-repeat center center fixed;
+    background: url("images/img_2022.jpg") no-repeat center center fixed, #f0f0f0;
     background-size: cover;
     color: #333;
 }
